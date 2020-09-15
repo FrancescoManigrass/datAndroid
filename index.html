@@ -1,0 +1,108 @@
+<!doctype html>
+	<html lang="en" class="h-100">
+		<head>
+			<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+					<meta name="description" content="">
+						<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+							<meta name="generator" content="Hugo 0.72.0">
+								<title>Cover Template · Bootstrap</title>
+								<link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/cover/">
+									<link rel="stylesheet" href="scroll-down.css">
+										<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"/>
+										<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/>
+										<script>
+											$(document).ready(function(){
+											$("a").on('click', function(event) {
+											if (this.hash !== "") {
+											event.preventDefault();
+											var hash = this.hash;
+											$('html, body').animate({
+											scrollTop: $(hash).offset().top
+											}, 800, function(){
+											window.location.hash = hash;
+											});
+											}
+											});
+											});
+										</script>
+										<!-- Bootstrap core CSS -->
+										<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+											<style>
+												.bd-placeholder-img {
+												font-size: 1.125rem;
+												text-anchor: middle;
+												-webkit-user-select: none;
+												-moz-user-select: none;
+												-ms-user-select: none;
+												user-select: none;
+												}
+												@media (min-width: 768px) {
+												.bd-placeholder-img-lg {
+												font-size: 3.5rem;
+												}
+												}
+											</style>
+											<!-- Custom styles for this template -->
+											<link href="cover.css" rel="stylesheet">
+											</head>
+											<body id="bgimg" class="text-white">
+												<div class="cover-container d-flex  h-100 p-3 mx-auto flex-column">
+													<header class="mb-auto">
+														<div>
+															<h3 class="float-md-left mb-0">Cover</h3>
+															<nav class="nav nav-masthead justify-content-center float-md-right">
+																<a class="nav-link active" aria-current="page" href="#">Home</a>
+																<a class="nav-link" href="#">Features</a>
+																<a class="nav-link" href="#">Contact</a>
+															</nav>
+														</div>
+													</header>
+													<main class="text-center px-3">
+														<h1>DatAndroid</h1>
+														<p class="lead">A collection of android dataset GUI screenshot deployed with different screen size</p>
+														<p class="lead">
+															<a href="#section2" class="btn btn-lg btn-secondary font-weight-bold border-white bg-white">Learn more</a>
+														</p>
+													</main>
+													<footer class="mt-auto text-white-50">
+														<p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+													</footer>
+												</div>
+												<div id="section2" class="row align-items-center mt-5  ">
+													<main class="mt-sm-4 d-flex justify-content-center p-4 ">
+														<div class="text-justify p-2 justify-content-center  w-50 margin-top">
+															DatAndroid was built by the semi-automatic exploration of android apps downloaded from Uptodown emulated on 14 different devices with the screenshots and associated metadata(View Hierarchies) retrieved directly from emulators.  The dataset contains data from about 95 unique apps of Writing and Notes category, containing mostly utilities to manage and organize text-based content and item lists.
+															The exposes data are used to evaluate the usability of different image recognition algorithms to support the visual Gui testing on different devices. In this work, we apply two different matching algorithms (Fullscreen and Cropped) to identify widgets’ visual locators making a repeatable a series of tests.
+														</div>
+														
+													</main>
+													<p class="lead">
+														<a href="#" class="btn btn-lg btn-secondary font-weight-bold border-white bg-black">Download</a>
+													</p>
+												</div>
+												<div id="section3" class="col-md-12 well">
+													<main class="col-md-12 well p-4">
+														<h1 class="text-justify p-2 justify-content-center  margin-top  mx-auto d-block w-50">Dataset Structure</h1>
+														<img src="images/component_distribution.png" class="rounded mx-auto d-block w-50">
+															<div class="text-justify p-2 justify-content-center  margin-top  mx-auto d-block w-50"/>
+															The apps emulated on Nexus 5, Pixel 3, Pixel 2, Nexus 5X, Nexus 6P, Nexus 6, Nexus S, Pixel 3a, Pixel, Nexus 4, Pixel 3, Pixel 2, Pixel XL contains differents Android widgets due to the screen size. An example is shown in the figure below.
+															
+															
+															
+														</div>
+													</main>
+												</div>
+												<div id="section4" class="row align-items-center mt-5  ">
+													<main class="mt-sm-4 d-flex justify-content-center p-4 ">
+													<h1 class="text-justify p-2 justify-content-center  margin-top  mx-auto d-block w-50">Collection procedure</h1>
+														<img src="images/teaser.png" width="350" style="float: right; padding-left: 20px; margin-top">
+															<div class="text-justify p-2 justify-content-center  w-25 margin-top"/>
+															DatAndroid was built by the semi-automatic exploration of android apps downloaded from Uptodown emulated on 14 different devices with the screenshots and associated metadata(View Hierarchies) retrieved directly from emulators.  The dataset contains data from about 95 unique apps of Writing and Notes category, containing mostly utilities to manage and organize text-based content and item lists.
+															The exposes data are used to evaluate the usability of different image recognition algorithms to support the visual Gui testing on different devices. In this work, we apply two different matching algorithms (Fullscreen and Cropped) to identify widgets’ visual locators making a repeatable a series of tests.
+														</div>
+													</main>
+												</div>
+											</body>
+										</html>
+										
