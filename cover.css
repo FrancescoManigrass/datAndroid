@@ -74,9 +74,21 @@ border-bottom-color: #fff;
 
 }
 
-div,h1,p { 
-	max-width: 300px; 
+div { 
+	max-width: 1080px; 
 	margin: 0 auto !important; 
 	float: none !important; 
 }
+
+h1 { 
+	max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+p { 
+	max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+
 
