@@ -75,8 +75,14 @@ border-bottom-color: #fff;
 }
 
 .limit_size { 
-	max-width: 1080px; 
+	max-width: 900px; 
+  
 	margin: 0 auto !important; 
 	float: none !important; 
 }
+
+.img_paper{
+  box-shadow: 10px 10px 5px #dedede;
+}
+
 
