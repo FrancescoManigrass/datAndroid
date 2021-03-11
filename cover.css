@@ -75,7 +75,7 @@ border-bottom-color: #fff;
 }
 
 div,h1,p { 
-	max-width: 1080px; 
+	max-width: 300px; 
 	margin: 0 auto !important; 
 	float: none !important; 
 }
