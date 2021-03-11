@@ -75,7 +75,7 @@ border-bottom-color: #fff;
 }
 
 .limit_size { 
-	max-width: 1080px; 
+	max-width: 50%; 
   width: 100%;
 	margin: 0 auto !important; 
 	float: none !important; 
@@ -83,7 +83,7 @@ border-bottom-color: #fff;
 
 .img_paper{
   box-shadow: 10px 10px 5px #dedede;
-  max-width: 1080px; 
+  max-width: 80%; 
   width: 100%;
 }
 
