@@ -1,0 +1,8 @@
+@misc{Feature_Matching-based,
+
+  title="Feature Matching-based Approaches to Improve the
+Robustness of Android Visual GUI Testing", 
+
+author="Ardito, Luca and Bottino, Andrea and Coppola, Riccardo and Lamberti, Fabrizio and Manigrasso, Francesco and Morra, Lia and Torchiano, Marco",
+
+  }
