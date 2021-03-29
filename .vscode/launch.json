@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\manigrassolab\\Documents\\polito\\dataAndroid\\datAndroid\\index.html"
+            "file": "C:\\Users\\manigrassolab\\Documents\\polito\\dataAndroid\\index.html"
         }
     ]
 
